@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship Game</title>
+</head>
+<body>
+    <div id="game" class="game-container">
+        <div id="message" class="message"></div>
+        <div class="game-boards">
+            <div class="ship-selection">
+                <h2>Ships</h2>
+                <div id="shipList"></div>
+                <button id="rotateBtn" class="hidden">Rotate Ship</button>
+            </div>
+            <div class="boards">
+                <div class="board-container">
+                    <h2>Player 1</h2>
+                    <div id="player1Board" class="board"></div>
+                </div>
+                <div class="board-container">
+                    <h2>Player 2</h2>
+                    <div id="player2Board" class="board"></div>
+                </div>
+            </div>
+        </div>
+        <button id="playAgain" class="hidden">Play Again</button>
+    </div>
+</body>
+</html>
